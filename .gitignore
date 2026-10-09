@@ -1,0 +1,39 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local model weights
+models/*
+!models/README.md
+!models/manifest.example.json
+
+# Runtime data
+data/*
+!data/README.md
+!data/backups/.gitkeep
+
+# Frontend dependencies and output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and recordings
+*.log
+recordings/
+

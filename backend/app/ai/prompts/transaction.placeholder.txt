@@ -1,0 +1,4 @@
+Transaction extraction prompt placeholder.
+
+The final prompt will be versioned and evaluated against fixtures before use.
+
