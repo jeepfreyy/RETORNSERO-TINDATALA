@@ -1,3 +1,27 @@
+# Kaya Mode
+
+A Chrome/Edge extension that explains web forms using **local Qwen through Ollama**.
+It shows an overview, preparation checklist, and first step without reading entered values.
+
+Start with [Windows/macOS setup](docs/kaya-setup.md), [extension architecture](extension/README.md),
+and [verification/limits](docs/kaya-verification.md).
+
+On Windows, from this repository:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/setup-kaya.ps1
+node scripts/serve-kaya-demo.mjs
+```
+
+Load `extension/` unpacked at `chrome://extensions`, open `http://localhost:4173`,
+then Analyze in Kaya Mode. Default mode uses real local inference; samples are
+separately labeled. Download the runtime/model before an offline demo.
+
+## Earlier TindaTala scaffold (preserved)
+
+The earlier planning scaffold below remains for reference. Kaya Mode lives in
+`extension/`, `demo/`, and the Kaya setup scripts.
+
 # TindaTala
 
 TindaTala is an offline-first, voice-assisted ledger for sari-sari stores.
